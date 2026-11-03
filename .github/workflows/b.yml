@@ -1,0 +1,7 @@
+name: b
+on:
+  workflow_call: {}
+jobs:
+  call-d:
+    uses: furkank-dev/ag-rt-t-d/.github/workflows/d.yml@main
+    secrets: inherit
